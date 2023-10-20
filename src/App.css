@@ -1,0 +1,26 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 300px;
+  margin-top: 100px;
+}
+h2{
+  text-align: center;
+}
+textarea{
+  resize: none;
+  background-color: rgba(128, 128, 128, 0.175);
+  padding: 10px;
+  border-radius: 10px;
+}
+textarea:focus{
+  outline: none;
+}
